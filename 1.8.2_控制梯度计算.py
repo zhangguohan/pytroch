@@ -54,9 +54,11 @@ def test03():
         # 自动微分
         f.backward()
         # 梯度下降
-        x.data = x.data - 0.001 * x.grad
+        if x.grad is not None:
+            x.data = x.data - 0.001 * x.grad
         # 清零
-        x.grad.data.zero_()
+        if x.grad is not None:
+            x.grad.data.zero_()
         # 打印结果
         print(x.data)
 

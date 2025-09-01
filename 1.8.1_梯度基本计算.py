@@ -58,4 +58,5 @@ def test04():
    
 
 if __name__ == '__main__':
-    test04()
+    test01()
+    
