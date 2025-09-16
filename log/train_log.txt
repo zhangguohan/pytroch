@@ -1,0 +1,10 @@
+epoch   1 loss: 2.83808 time 0.56
+epoch   2 loss: 0.56292 time 0.47
+epoch   3 loss: 0.21683 time 0.41
+epoch   4 loss: 0.15347 time 0.47
+epoch   5 loss: 0.12796 time 0.47
+epoch   6 loss: 0.11520 time 0.48
+epoch   7 loss: 0.10914 time 0.46
+epoch   8 loss: 0.10220 time 0.41
+epoch   9 loss: 0.10247 time 0.41
+epoch  10 loss: 0.09888 time 0.41
